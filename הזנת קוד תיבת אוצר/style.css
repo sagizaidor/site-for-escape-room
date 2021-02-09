@@ -1,0 +1,15 @@
+body {
+    font-family: 'Assistant', sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-responsive {
+    height:20em;
+    width: 20em;
+}

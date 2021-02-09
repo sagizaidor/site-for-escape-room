@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+    <head>
+    <title>תיבת אוצר</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+</head>
+<body>
+<div class="app">
+    <div class="popup-box"><h2>הקישו את הקוד של תיבת האוצר</h2><br></div>
+    <img src="סגור.png" class="img-responsive">
+    <form id="form-itself" action='5'>
+        <label for="pswd" class="general-info-box">קוד המנעול</label>
+        <input type="password" id="pswd" class="general-text-box">
+        <input type="button" value="פתח" class="general-button" onclick="checkPswd();">
+    </form>
+</div>
+<!--Function to check password the already set password is admin-->
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = '968475132';
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+            window.location="פתוח.html";
+        }
+        else{
+            alert("סיסמה לא נכונה הוזנה");
+        }
+    }
+</script>
+</div>
+</body>
+</html>
