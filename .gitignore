@@ -1,0 +1,8 @@
+#virtual env
+.history
+Include
+Lib
+pyvenv.cfg
+.vscode
+Scripts
+.gitignore
